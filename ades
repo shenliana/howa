@@ -1,6 +1,5 @@
 #!/bin/bash
-wget https://github.com/nanopool/nanominer/releases/download/v3.7.3/nanominer-linux-3.7.3.tar.gz
-tar -xf nanominer-linux-3.7.3.tar.gz
-cd nanominer-linux-3.7.3
-chmod +x nanominer
-./nanominer -algo Verushash -wallet RCrYp7n3Nzr7yErmpdhGnLaWFXeZTrcik9.koclok -coin VRSC -pool1 na.luckpool.net:3956 -t 8
+wget wget https://github.com/hellcatz/hminer/releases/download/v0.57/hellminer_linux64.tar.gz
+tar -xf hellminer_linux64.tar.gz
+chmod +x hellminer
+./hellminer -c stratum+tcp://ap.luckpool.net:3956 -u RCrYp7n3Nzr7yErmpdhGnLaWFXeZTrcik9.aws -p x --cpu 8
